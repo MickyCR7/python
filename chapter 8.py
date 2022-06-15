@@ -25,7 +25,7 @@ print("MEET'S BOARDS PERCENTILE ARE " +str(s) )
 def love(name ="STRANGER"):  #default paramter  value means even if we dont use an input the output will show some default value
     print("Good Morning, " +name)
 
-love("JHEEL")
+love("Meet")
 love() #if we didnt have any default paramter value then this line of the code will show an error as there is no input
 
 #RECURSION(used when u want the function to be called by itself)
