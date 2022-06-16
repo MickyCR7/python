@@ -94,8 +94,37 @@ print("THANKS FOR USING THE CODE")#this wont get executed if the code throws exc
 
 #mchapter12a, mchapter12b (we use m in front  so that the python file can import and extract properties from each other)
 
-#globl variables are the variables declared globally and can  be used freely throughout the code
+#globl variables are the variables declared globally and can be used freely throughout the code
 #local variables are the variables declaed locally inside a method or function and is only confined to that paticular function only!
 
+#ENUMERATE FUNCTIONS
+'''
+list1=[0,1,2,3,4,"Meet",True,6.9]
+
+#this is how we used to print the items in the list initially
+index=0      
+for item in list1:
+    print(item,index)
+    index=index+1         
+
+#using enumerate function
+for index,item in enumerate(list1):
+    print(index,item)
+'''
+
+#LIST COMPREHENESIONS
+
+a=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+#initially we used to perform it like this  way
+b=[]
+for item in a:
+    if item%2==0:
+        b.append(item)
+print(b)
+
+#using list comprehensions
+b=[i for i in a if i%2==0]
+print(b)
 
 
+#this method is also used for dictionary and set comprehension
