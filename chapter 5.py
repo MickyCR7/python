@@ -2,7 +2,7 @@ import os
 #DICTIONARY
 myDict ={
     "Meet" : "To communicate physically",           #key : value
-    "Jheel" : "Lake",
+    "Raj" : "Rule",
     "Varsha" : "Rain",
     "Policyno." : [3517,3612,8978],
     "AnotherDict" :{                                        #nested dictionary
@@ -13,7 +13,7 @@ myDict ={
 }
 
 print(myDict['Meet'])
-print(myDict['Jheel'])
+print(myDict['Raj'])
 print(myDict['AnotherDict']['Barry'])   #for nested dictionary
 print(myDict['Policyno.'])
 myDict['Policyno.'] = [10,20,60] #mutuable
@@ -31,7 +31,7 @@ print(myDict.items()) #to list all the keys and their values together in the dic
 updateDict={
 "Dhruvin" : "Brother",
 "Krish" : "Friend",
-"Jheel" : "Best Friend",
+"Raj" : "Best Friend",
 }
 myDict.update(updateDict) #to add key-value pairs in the dictionary
 print(myDict)

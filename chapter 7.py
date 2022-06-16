@@ -18,7 +18,7 @@ while i<5:
     i=i+1
 '''
 #QUICK QUIZ
-'''bff=['MEET','JHEEL','KRISH','DEV','MIKKA','BHABS']
+'''bff=['MEET','JHEEL','KRISH','DEV','MIHIKA','BHAVISHA']
 i=0
 while i<len(bff):
     print(bff[i])
@@ -26,7 +26,7 @@ while i<len(bff):
 '''
 #for loop
 #same using for loop
-'''bff=['MEET','JHEEL','KRISH','DEV','MIKKA','BHABS']
+'''bff=['MEET','JHEEL','KRISH','DEV','MIHIKA','BHAVISHA']
 
 for items in bff:
     print(items)

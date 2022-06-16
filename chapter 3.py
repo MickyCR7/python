@@ -19,6 +19,6 @@ print(story.endswith("ION")) #This function check whether a string ends with a p
 print(story.count("O")) #A FUNCTION USED TO COUNT A PARTICULAR character/string IN THE VARIABLE STRING
 print(story.capitalize()) #this function is used to capitalize the first character of the string
 print(story.find("MEET")) #used to find the irst occurence of the particular string
-print(story.replace("MEET", "JHEEL")) #used to replace old word with new word
+print(story.replace("MEET", "RAJ")) #used to replace old word with new word
 
 
